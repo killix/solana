@@ -164,7 +164,8 @@ criterion-stats = "0.3.0"
 crossbeam-channel = "0.5.6"
 csv = "1.1.6"
 ctrlc = "3.2.3"
-curve25519-dalek = "3.2.1"
+# curve25519-dalek = "3.2.1"
+curve25519-dalek = { git = "https://github.com/killix/curve25519-dalek.git" }
 dashmap = "4.0.2"
 derivation-path = { version = "0.2.0", default-features = false }
 dialoguer = "0.10.2"
